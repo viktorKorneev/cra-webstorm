@@ -13,10 +13,12 @@ function hello() {
 function App() {
     return (
         <div>
-            <AppTitle/>
+            <PageTitle title={"This is App component"}/>
+            <PageTitle title={"My Friends"}/>
             Article 1
             <Rating value={2}/>
-            <Accordion/>
+            <Accordion title={"Title menu"}/>
+            <Accordion title={"Body menu"}/>
             Article 2
             <Rating value={5}/>
             <Rating value={4}/>
@@ -28,9 +30,9 @@ function App() {
     );
 }
 
-function AppTitle() {
-    console.log("AppTitle rendering")
-    return <div>This is App component</div>
+function PageTitle(props: any) {
+    console.log("PageTitle rendering")
+    return <h1>{props.title}</h1>
 }
 
 

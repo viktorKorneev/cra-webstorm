@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f3cafb5-f5fa-4a16-af3e-7f9190cce4d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +87,23 @@
       <workItem from="1781806657155" duration="2289000" />
       <workItem from="1781899056267" duration="28000" />
       <workItem from="1781931540565" duration="8470000" />
-      <workItem from="1782040476078" duration="2561000" />
+      <workItem from="1782040476078" duration="4465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Rating/Rating.tsx</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
