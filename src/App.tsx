@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Accordion from "./components/Accordion/Accordion";
+import {Rating} from "./components/Rating/Rating";
 
 function hello() {
     debugger
@@ -13,43 +14,25 @@ function App() {
     return (
         <div>
             <AppTitle/>
-            <Rating/>
+            Article 1
+            <Rating value={2}/>
             <Accordion/>
-            <Rating/>
+            Article 2
+            <Rating value={5}/>
+            <Rating value={4}/>
+            <Rating value={3}/>
+            <Rating value={2}/>
+            <Rating value={1}/>
         </div>
 
-    )
-        ;
+    );
 }
 
 function AppTitle() {
     console.log("AppTitle rendering")
-    return <>This is App component</>
+    return <div>This is App component</div>
 }
 
-function Rating() {
-    console.log("Rating rendering");
-    return (
-        <>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-        </>
-    )
-}
 
-function Star() {
-    console.log("Star rendering")
-    return <div>star</div>
-}
-
-function Accordion() {
-    console.log("Accordion rendering")
-    return <div>
-        <h3>Меню</h3>
-    </div>
-}
 
 export default App;
